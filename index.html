@@ -1,0 +1,43 @@
+!DOCTYPE html
+html lang=ca
+head
+  meta charset=UTF-8
+  meta name=viewport content=width=device-width, initial-scale=1.0
+  titleMartinakus Console 🚀title
+  link rel=stylesheet href=style.css
+head
+body
+  div class=console-container
+    header
+      h1⚡ Martinakus Console 2.0 ⚡h1
+      p class=subtitleEl futur de la consola està aquí 🚀p
+    header
+
+    main id=menu
+      div class=card onclick=openSection('xarxa')🌐 Xarxa Seguradiv
+      div class=card onclick=openSection('sistema')🖥️ Sistemadiv
+      div class=card onclick=openSection('utilitats')🧰 Utilitatsdiv
+      div class=card onclick=openSection('claus')🔐 Generador de Clausdiv
+      div class=card onclick=openSection('gamer')🎮 Zona Gamerdiv
+      div class=card onclick=openSection('navegador')🌍 Navegadordiv
+      div class=card onclick=openSection('temps')⏱️ Temporitzadordiv
+      div class=card onclick=openSection('ajuda')⌨️ Ajuda Ràpidadiv
+      div class=card onclick=openSection('ia')🤖 IA Martinakusdiv
+      div class=card onclick=openSection('seguretat')🧪 Laboratori Seguretatdiv
+      div class=card onclick=openSection('programacio')👨‍💻 Aprendre Programaciódiv
+      div class=card onclick=closeApp()🚪 Tancar Sessiódiv
+    main
+
+    section id=content class=hidden
+      button class=back-btn onclick=goBack()⬅️ Tornarbutton
+      div id=section-contentdiv
+    section
+  div
+
+  footer
+    pCreada per strongMartístrong 💙 — Powered by Martinakus GPTp
+  footer
+
+  script src=script.jsscript
+body
+html
